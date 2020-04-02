@@ -11,7 +11,7 @@ from sklearn.cluster import MeanShift, KMeans, estimate_bandwidth
 
 le = preprocessing.LabelEncoder()
 
-method = 'MeanShift'
+method = 'KMeans'
 
 data = pd.read_csv('Live.csv', sep=',')
 
